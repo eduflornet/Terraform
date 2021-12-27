@@ -1,23 +1,56 @@
-  terraform {
-    required_version = ">= 1.0"
+terraform {
+  required_version = ">= 1.0"
   required_providers {
     azurerm = {
-      source = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm"
       version = "2.90.0"
     }
   }
 }
 
 provider "azurerm" {
-  alias = "prueba"
-  subscription_id = var.subscription_id
-  client_id = var.client_id
-  client_secret = var.client_secret
+  features {}
 }
 
-resource "azurerm_resource_group" "axample" {
-  name = "example-resource-group"
-  location = "West Europe"
+variable "resource_group_name" {
+  type        = string
+  description = "the name of resource group for containing resources"
 }
+variable "resource_location" {
+  type        = string
+  description = "azure location for hosting resources"
+}
+variable "storage_account_name" {
+  type        = string
+  description = "the name of Azure storage account"
+}
+resource "azurerm_resource_group" "myrg" {
+  name     = var.resource_group_name
+  location = var.resource_location
+}
+resource "azurerm_storage_account" "mystorage" {
+  name                     = var.storage_account_name
+  resource_group_name      = azurerm_resource_group.myrg.name
+  location                 = azurerm_resource_group.myrg.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+  tags = {
+    environment = "test"
+  }
+}
+
+output "resource_group_details" {
+  value = azurerm_resource_group.myrg
+}
+output "storage_account_details" {
+  value = azurerm_storage_account.mystorage
+  sensitive = true
+}
+
+
+
+
+
+
 
 
