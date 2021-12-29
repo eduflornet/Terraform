@@ -18,6 +18,11 @@ terraform plan -out="app.tfplan"
 terraform apply "app.tfplan"
 ```
 
+## How it works…
+In step 1, we wrote a piece of Terraform configuration that uses the local provider and the **local_file** resource. This resource creates a file called *mytextfile.txt* and adds This is my text to it.
+Then, in step 2, we executed Terraform on this code. By doing this, we obtained the
+*mytextfile.txt* file on our local disk.
+
 ## References
 - [Documentation on the **local_file** resource is available at here](https://www.terraform.io/docs/providers/local/r/file.html)
 
