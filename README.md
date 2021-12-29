@@ -1,4 +1,10 @@
 # [Terraform on Azure](https://github.com/eduflornet/Terraform/tree/main/terraform-azure)
+## [Intro](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/1-intro)
+## [Configuration](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/2-configuration)
+- ### [Manipulating variables](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/2-configuration/variables)
+- 
+  
+
 I have using the following tools:
 
 - Terraform 1.1.2

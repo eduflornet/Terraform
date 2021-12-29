@@ -21,9 +21,9 @@ variable "environment" {
   description = "Environment Name"
 }
 
-
-#Using Conditional (ternary) operator with upper and format functions
+# To capitalize everything inside, we encapsulate the format function in the upper function, which capitalizes all its contents
 resource "azurerm_resource_group" "rg-app" {
-  name     = var.environment == "Production" ? upper(format("RG-%s", var.app_name)) : upper(format("RG-%s-%s", var.app_name, var.environment))
+  name = upper(format("RG-%s-%s", var.app_name,
+  var.environment))
   location = "westeurope"
 }
