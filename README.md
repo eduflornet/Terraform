@@ -12,7 +12,12 @@
 - [Manipulating local files with Terraform](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/2-configuration/files)
 - [Executing local programs with Terraform](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/2-configuration/files_local_exec)
 - [Generating passwords with Terraform](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/2-configuration/password)
-  
+
+## [Building Dynamic Environments](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments)
+ - [Provisioning multiple resources with the count property](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/count)
+ - [Using a table of key-value variables with maps](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/map)
+ - [Looping over object collections](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/list_map)
+ - [Generating multiple blocks with dynamic expressions](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/dynamics)
   
 
 I have using the following tools:
