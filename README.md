@@ -18,7 +18,8 @@
  - [Using a table of key-value variables with maps](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/map)
  - [Looping over object collections](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/list_map)
  - [Generating multiple blocks with dynamic expressions](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/dynamics)
-  
+  ## [Terraform CLI](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli)
+  - [Using workspaces for managing environments]()
 
 I have using the following tools:
 
