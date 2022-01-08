@@ -22,6 +22,9 @@
   - [Using workspaces for managing environments](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/workspaces)
   - [Importing existing resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/import)
   - [Exporting the output in JSON](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/exporting-output)
+  - [Tainting resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/sample-app)
+  - [Generating the graph dependencies](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/graph-dependencies)
+  - [Debugging the Terraform execution](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/debugging)
 
 I have using the following tools:
 
