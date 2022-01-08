@@ -18,7 +18,13 @@
  - [Using a table of key-value variables with maps](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/map)
  - [Looping over object collections](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/list_map)
  - [Generating multiple blocks with dynamic expressions](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/3-building-dynamic-environments/dynamics)
-  
+  ## [Terraform CLI](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli)
+  - [Using workspaces for managing environments](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/workspaces)
+  - [Importing existing resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/import)
+  - [Exporting the output in JSON](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/exporting-output)
+  - [Tainting resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/sample-app)
+  - [Generating the graph dependencies](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/graph-dependencies)
+  - [Debugging the Terraform execution](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/debugging)
 
 I have using the following tools:
 
