@@ -21,7 +21,7 @@
   ## [Terraform CLI](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli)
   - [Using workspaces for managing environments](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/workspaces)
   - [Importing existing resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/import)
-  - 
+  - [Exporting the output in JSON](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/exporting-output)
 
 I have using the following tools:
 
