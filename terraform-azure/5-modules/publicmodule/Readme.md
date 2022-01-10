@@ -46,3 +46,5 @@ And so in the module call, use the Version property with the chosen version numb
 
 ## References
 - [The documentation on the Terraform module registry is available here](https://www.terraform.io/registry)
+- [Module publishing documentation is available here](https://www.terraform.io/registry/modules/publish)
+- [Documentation on the Registry APIs is available here](https://www.terraform.io/registry/api-docs)
