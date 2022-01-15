@@ -25,6 +25,12 @@
   - [Tainting resources](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/sample-app)
   - [Generating the graph dependencies](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/graph-dependencies)
   - [Debugging the Terraform execution](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/4-terraform-cli/debugging)
+  ## [Terraform Modules](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules)
+  - [Creating a Terraform module and using it locally](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/moduledemo)
+  - [Using modules from the public registry](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/publicmodule)
+  - [Using another file inside a custom module](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/execute-script-locally)
+  - [Using the Terraform module generator](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/generatedmodule)
+  - 
 
 I have using the following tools:
 
