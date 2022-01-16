@@ -30,7 +30,7 @@
   - [Using modules from the public registry](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/publicmodule)
   - [Using another file inside a custom module](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/execute-script-locally)
   - [Using the Terraform module generator](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/generatedmodule)
-  - 
+  - [Using a private Git repository for sharing a Terraform module](https://github.com/eduflornet/Terraform/tree/main/terraform-azure/5-modules/private-git-sharing-module)
 
 I have using the following tools:
 
